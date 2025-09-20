@@ -6,7 +6,7 @@ from tkinter import filedialog, messagebox, ttk
 import csv
 
 df_global = None
-version = '1.2.0'
+version = '1.2.1'
 
 # تابع پیدا کردن مسیر درست آیکون (مخصوص EXE)
 def resource_path(relative_path):
@@ -206,4 +206,5 @@ run_button = tk.Button(root, text="✅ اجرا", command=process_csv, bg="green
 run_button.grid(row=5, column=1, pady=30, sticky="e")
 
 root.mainloop()
+
 
